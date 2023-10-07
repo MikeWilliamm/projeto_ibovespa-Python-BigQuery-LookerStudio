@@ -12,7 +12,7 @@ A respeito do ibovespa, que é o principal índice de ações da Bolsa de Valore
 O processo tem início com um script Python que realiza uma solicitação HTTP para acessar dados em uma [API](https://brapi.dev/). Os dados obtidos são submetidos a um pré-processamento e, posteriormente, são carregados no BigQuery, onde são armazenados. O Looker Studio então utiliza consultas personalizadas no BigQuery, as quais fazem um ETL nos dados em tempo de processamento e retorna modelados de acordo com os padrões de visualização ideais definidos para o projeto, Figma foi utilizado para fazer o background da visualuização.
 
 ## Stacks
-Python (json, pandas, google.cloud.bigquery, os, MIMEMultipart, MIMEText, smtplib, requests, pandas_gbq, google.oauth2.service_account, platform)
+Python (json, pandas, google.cloud.bigquery, os, MIMEMultipart, MIMEText, smtplib, requests, pandas_gbq, google.oauth2.service_account, platform)<br>
 Big Query - GCP
 Looker Studio - GCP
 Figma
