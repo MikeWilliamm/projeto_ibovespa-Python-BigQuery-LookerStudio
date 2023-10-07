@@ -13,8 +13,8 @@ O processo tem início com um script Python que realiza uma solicitação HTTP p
 
 ## Stacks
 Python (json, pandas, google.cloud.bigquery, os, MIMEMultipart, MIMEText, smtplib, requests, pandas_gbq, google.oauth2.service_account, platform)<br>
-Big Query - GCP
-Looker Studio - GCP
+Big Query - GCP<br>
+Looker Studio - GCP<br>
 Figma
 
 ## Resultados
