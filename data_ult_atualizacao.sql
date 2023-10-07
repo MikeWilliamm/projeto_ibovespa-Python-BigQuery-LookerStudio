@@ -1,0 +1,1 @@
+SELECT MAX(DATE(ib.date)) AS max_date FROM `acoes-378306.acoes.ibovespa_historico` AS ib
